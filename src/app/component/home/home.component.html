@@ -14,17 +14,7 @@
       Expense Tracker
     </h2>
     <div>
-      <div *ngIf="!isLogging">
-        <button mat-raised-button color="primary">
-          <mat-icon>login</mat-icon>Login
-        </button>
-        <div style="margin-top: 20px">
-          <button mat-raised-button color="primary" (click)="onSignUp()">
-            <mat-icon>perm_identity</mat-icon>Sign Up
-          </button>
-        </div>
-      </div>
-      <div *ngIf="isLogging">
+      <div>
         <button mat-raised-button color="primary" (click)="Profile()">
           <mat-icon>perm_identity</mat-icon>Profile
         </button>
@@ -53,31 +43,15 @@
       </button>
       <span>Expense Tracker</span>
       <span class="example-spacer"></span>
-      <button
-        *ngIf="!isLogging"
-        mat-mini-fab
-        class="example-icon favorite-icon"
-        aria-label="Example icon-button with heart icon"
-        matTooltip="Sign Up"
-        (click)="onSignUp()"
-      >
-        <mat-icon>perm_identity</mat-icon>
-      </button>
-      <button *ngIf="isLogging" mat-raised-button color="accent">
+      <button mat-raised-button color="accent" (click)="onLogout()">
         <mat-icon>logout</mat-icon>Logout
       </button>
-      <!-- <button *ngIf="isLogging" mat-raised-button color="accent">
-        <mat-icon>addchart</mat-icon>Add New
-      </button> -->
     </mat-toolbar>
   </div>
-  <div *ngIf="!isLogging">
-    <app-login></app-login>
-  </div>
-  <div class="mainlogin" *ngIf="isLogging">
+  <div class="mainlogin">
     <app-view-expenses></app-view-expenses>
   </div>
-  <div *ngIf="isLogging">
+  <div>
     <button
       (click)="onAdd()"
       matTooltip="Add Expense"
