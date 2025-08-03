@@ -1,5 +1,5 @@
-[![Linkedin Badge](https://img.shields.io/badge/Raghav-follow%20on%20linkedin-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/raghavgarg2002/)
-![Instagram Badge](https://img.shields.io/badge/grraghav120@gmail.com-follow%20on%20Gmail-blue?style=for-the-badge&logo=gmail)
+[![Linkedin Badge](https://img.shields.io/badge/)](https://www.linkedin.com/)
+![Instagram Badge](https://img.shields.io/badge/)
 
 ## Celebrating 300+ Active Users on Expense Tracker 🥳🎉🍾
 
